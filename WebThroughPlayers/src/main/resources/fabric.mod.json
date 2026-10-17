@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "webthroughplayers",
+  "version": "${version}",
+  "name": "Web Through Players",
+  "description": "Allows cobweb placement targeting to ignore player entities.",
+  "environment": "client",
+  "entrypoints": {
+    "client": []
+  },
+  "mixins": [
+    "webthroughplayers.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
